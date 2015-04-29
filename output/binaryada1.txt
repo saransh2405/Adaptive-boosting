@@ -1,0 +1,50 @@
+Iteration 1
+Selected weak classifier: x<2.0
+Error:0.25
+Weight:0.549306144334
+Probability normalization factor: 0.866025403784
+Probability after normalization:   0.166666666667  0.166666666667  0.166666666667  0.5
+ft: 0.549306144334 I(x<2.0)
+error of the boosted classifier: 0.25,1 mistakes
+bound on Et: 0.866025403784
+===============================================================================================
+Iteration 2
+Selected weak classifier: x>5.5
+Error:0.166666666667
+Weight:0.804718956217
+Probability normalization factor: 0.7453559925
+Probability after normalization:   0.5  0.1  0.1  0.3
+ft: 0.549306144334 I(x<2.0)+0.804718956217 I(x>5.5)
+error of the boosted classifier: 0.25,1 mistakes
+bound on Et: 0.645497224368
+===============================================================================================
+Iteration 3
+Selected weak classifier: x<2.0
+Error:0.3
+Weight:0.423648930194
+Probability normalization factor: 0.916515138991
+Probability after normalization:   0.357142857143  0.0714285714286  0.0714285714286  0.5
+ft: 0.549306144334 I(x<2.0)+0.804718956217 I(x>5.5)+0.423648930194 I(x<2.0)
+error of the boosted classifier: 0.25,1 mistakes
+bound on Et: 0.59160797831
+===============================================================================================
+Iteration 4
+Selected weak classifier: x>5.5
+Error:0.357142857143
+Weight:0.293893332451
+Probability normalization factor: 0.9583148475
+Probability after normalization:   0.5  0.0555555555556  0.0555555555556  0.388888888889
+ft: 0.549306144334 I(x<2.0)+0.804718956217 I(x>5.5)+0.423648930194 I(x<2.0)+0.293893332451 I(x>5.5)
+error of the boosted classifier: 0.25,1 mistakes
+bound on Et: 0.566946709514
+===============================================================================================
+Iteration 5
+Selected weak classifier: x<2.0
+Error:0.388888888889
+Weight:0.225992561872
+Probability normalization factor: 0.974996043044
+Probability after normalization:   0.409090909091  0.0454545454545  0.0454545454545  0.5
+ft: 0.549306144334 I(x<2.0)+0.804718956217 I(x>5.5)+0.423648930194 I(x<2.0)+0.293893332451 I(x>5.5)+0.225992561872 I(x<2.0)
+error of the boosted classifier: 0.25,1 mistakes
+bound on Et: 0.552770798393
+===============================================================================================
